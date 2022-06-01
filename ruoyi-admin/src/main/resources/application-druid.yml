@@ -1,0 +1,7 @@
+# 数据源配置
+spring:
+    datasource:
+        #type: com.alibaba.druid.pool.DruidDataSource
+        #driverClassName: com.mysql.cj.jdbc.Driver
+        url: jdbc:sqlite:D:\sqllite\csfw.db
+        driverClassName: org.sqlite.JDBC
